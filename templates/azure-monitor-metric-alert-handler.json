@@ -11,8 +11,8 @@
             "producitivity",
             "general"
         ],
-        "description": "Quickstart template for handling metric alerts pushed by Azure Monitor.",
-        "displayName": "Azure Monitor - Metrics Alert Handler",
+        "description": "Quickstart template for handling metric alerts pushed by Azure Monitor using the metric alert schema.",
+        "displayName": "Act based on an Azure Monitor Metrics Alert",
         "definition": {
             "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
             "actions": {},
@@ -162,6 +162,6 @@
         ],
         "changedTime": "2019-02-20T08:00:00.000Z",
         "createdTime": "2018-10-19T12:00:00.000Z",
-        "popularity": 3
+        "popularity": 10
     }
 }
