@@ -1,0 +1,31 @@
+{
+    "id": "/providers/Microsoft.Logic/galleries/public/templates/2b2785e4-fbca-4945-8636-644a41872537",
+    "type": "Microsoft.Logic/galleries/templates",
+    "name": "2b2785e4-fbca-4945-8636-644a41872537",
+    "properties": {
+        "author": {
+            "displayName": "Tom Kerkhove"
+        },
+        "categoryNames": [
+            "enterprise_integration",
+            "producitivity",
+            "general"
+        ],
+        "description": "Quickstart template for handling alerts pushed by Azure Monitor using the common alert schema.",
+        "displayName": "Act based on an Azure Monitor Alert",
+        "definition": {
+        },
+        "connectionReferences": {},
+        "apiSummaries": [
+            {
+                "type": "ApiConnection",
+                "displayName": "Azure Monitor",
+                "iconUri": "https://github.com/Azure/logicapps/raw/master/templates/images/azure-monitor.png",
+                "brandColor": "#FFF"
+            }
+        ],
+        "changedTime": "2019-04-03T08:00:00.000Z",
+        "createdTime": "2018-04-03T12:00:00.000Z",
+        "popularity": 3
+    }
+}
