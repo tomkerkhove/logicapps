@@ -1,0 +1,196 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://azure.com/logic-apps/manifest.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "description": "An explanation about the purpose of this instance.",
+    "required": [
+      "id",
+      "type",
+      "name",
+      "properties"
+    ],
+    "properties": {
+      "id": {
+        "$id": "#/properties/id",
+        "type": "string",
+        "title": "The Id Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "pattern": "^(.*)$"
+      },
+      "type": {
+        "$id": "#/properties/type",
+        "type": "string",
+        "title": "The Type Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "pattern": "^(.*)$"
+      },
+      "name": {
+        "$id": "#/properties/name",
+        "type": "string",
+        "title": "The Name Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "pattern": "^(.*)$"
+      },
+      "properties": {
+        "$id": "#/properties/properties",
+        "type": "object",
+        "title": "The Properties Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "required": [
+          "author",
+          "categoryNames",
+          "description",
+          "displayName",
+          "definition",
+          "connectionReferences",
+          "apiSummaries",
+          "changedTime",
+          "createdTime",
+          "popularity"
+        ],
+        "properties": {
+          "author": {
+            "$id": "#/properties/properties/properties/author",
+            "type": "object",
+            "title": "The Author Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "required": [
+              "displayName"
+            ],
+            "properties": {
+              "displayName": {
+                "$id": "#/properties/properties/properties/author/properties/displayName",
+                "type": "string",
+                "title": "The Displayname Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "categoryNames": {
+            "$id": "#/properties/properties/properties/categoryNames",
+            "type": "array",
+            "title": "The Categorynames Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "items": {
+              "$id": "#/properties/properties/properties/categoryNames/items",
+              "type": "string",
+              "title": "The Items Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "pattern": "^(.*)$"
+            }
+          },
+          "description": {
+            "$id": "#/properties/properties/properties/description",
+            "type": "string",
+            "title": "The Description Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "pattern": "^(.*)$"
+          },
+          "displayName": {
+            "$id": "#/properties/properties/properties/displayName",
+            "type": "string",
+            "title": "The Displayname Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "pattern": "^(.*)$"
+          },
+          "definition": {
+            "$id": "#/properties/properties/properties/definition",
+            "type": "object",
+            "title": "The Definition Schema",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "connectionReferences": {
+            "$id": "#/properties/properties/properties/connectionReferences",
+            "type": "object",
+            "title": "The Connectionreferences Schema",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "apiSummaries": {
+            "$id": "#/properties/properties/properties/apiSummaries",
+            "type": "array",
+            "title": "The Apisummaries Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "items": {
+              "$id": "#/properties/properties/properties/apiSummaries/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "required": [
+                "type",
+                "displayName",
+                "iconUri",
+                "brandColor"
+              ],
+              "properties": {
+                "type": {
+                  "$id": "#/properties/properties/properties/apiSummaries/items/properties/type",
+                  "type": "string",
+                  "title": "The Type Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "pattern": "^(.*)$"
+                },
+                "displayName": {
+                  "$id": "#/properties/properties/properties/apiSummaries/items/properties/displayName",
+                  "type": "string",
+                  "title": "The Displayname Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "pattern": "^(.*)$"
+                },
+                "iconUri": {
+                  "$id": "#/properties/properties/properties/apiSummaries/items/properties/iconUri",
+                  "type": "string",
+                  "title": "The Iconuri Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "pattern": "^(.*)$"
+                },
+                "brandColor": {
+                  "$id": "#/properties/properties/properties/apiSummaries/items/properties/brandColor",
+                  "type": "string",
+                  "title": "The Brandcolor Schema",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "changedTime": {
+            "$id": "#/properties/properties/properties/changedTime",
+            "type": "string",
+            "title": "The Changedtime Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "pattern": "^(.*)$"
+          },
+          "createdTime": {
+            "$id": "#/properties/properties/properties/createdTime",
+            "type": "string",
+            "title": "The Createdtime Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "pattern": "^(.*)$"
+          },
+          "popularity": {
+            "$id": "#/properties/properties/properties/popularity",
+            "type": "integer",
+            "title": "The Popularity Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0
+          }
+        }
+      }
+    }
+  }
