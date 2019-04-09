@@ -16,7 +16,7 @@ steps:
 - bash: 'npm install -g ajv-cli'
   displayName: 'Install JSON validation utility'
 
-- bash: 'ajv validate -s templates/schemas/manifest.json -d templates/manifest.json'
+- bash: 'ajv validate -s templates/schemas/manifest.json -d templates/manifest.jsoon'
   displayName: 'Validate Manifest'
 
 - bash: 'ajv validate -s templates/schemas/template.json -d templates/*.json'
