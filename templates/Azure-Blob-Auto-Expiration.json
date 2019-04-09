@@ -130,6 +130,8 @@
         "iconUri": "https://cpgeneralstore.blob.core.windows.net/icons/azureblob.png",
         "brandColor": "#804998"
       }
-    ]
+    ],
+    "createdTime": "2017-09-18T00:00:00.000Z",
+    "popularity": 99
   }
 }
